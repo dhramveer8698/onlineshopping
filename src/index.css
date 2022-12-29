@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 20px;
+    background: whitesmoke;
+}
+.card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.productsWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+@media screen and (width: 400px) {
+    .productsWrapper {
+      direction: column;
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
+.btn {
+    border: none;
+    outline: none;
+    background: #764abc;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background:green;
+    color: white;
+}
+
+.heading {
+    padding: 25px 0;
+    text-align: center;
+    font-size:35px;
+}
+.cartCount {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left:20px;
+    font-size: 17px;
+    padding-top:1px;
+}
+.navLink {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size:16px;
+}
+
+.cartCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 14px;
+    border-radius: 5px;
+}
+.cart{
+    padding-top:20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: bold;
+    padding-left: 10px;
+}
+.ama{
+    height:55px;
+}
+li:hover{
+    color: #764abc;
+    padding-top: 10px;
+    color: red;
+    text-decoration-line: underline;
+}
+.header{
+    color: #764abc;
+    font-size: 1.8rem;
+}
+.cart-trolley--link {
+    position: relative;
+    padding-left: 18px;
+}
+.cart-trolley {
+    position: relative;
+    font-size: 3.4rem;
+}
+.total{
+    font-size: 22px;
+    color: black;
+}
