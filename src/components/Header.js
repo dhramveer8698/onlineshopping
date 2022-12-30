@@ -28,9 +28,6 @@ const Header = () => {
           <li className="nav-item">
             <Link className="header navLink nav-link"  to='/contact'>CONTACT</Link>
           </li>
-          <li className="nav-item">
-            <Link className="header navLink nav-link"  to='/login'>LOG IN</Link>
-          </li>
           <li>
             <NavLink to="/cart" className="navbar-link cart-trolley--link">
               <FiShoppingCart className="cart-trolley" />

@@ -102,3 +102,11 @@ li:hover{
     font-size: 22px;
     color: black;
 }
+.user-login--name {
+    text-transform: capitalize;
+  }
+  .user-logout,
+  .user-login {
+    font-size: 1.0rem;
+    padding: 0.6rem 1.0rem;
+  }
